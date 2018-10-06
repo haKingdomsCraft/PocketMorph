@@ -103,7 +103,7 @@ class MorphManager {
 		$this->plugin->morphs[$player->getName()] = $entity->getId();
 		$entity->setNameTag($player->getNameTag());
 		
-		$pk = new RemovePlayerPacket();
+		$pk = new RemoveEntityPacket();
 		$pk->entityRuntimeId = $player->getId();
 		$pk->clientId = UUID::fromData($player->getId(), $player->getName());
 		
