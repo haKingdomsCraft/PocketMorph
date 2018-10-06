@@ -3,7 +3,7 @@ author: HotshotHD
 version: 1.0.0
 description: Morph into your favourite mobs!
 main: pocketmorph\PocketMorph
-api: 3.0.0-ALPHA7
+api: [3.0.0, 3.1.0, 3.2.0]
 commands:
   morph:
     description: Transform into a mob
