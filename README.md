@@ -1,4 +1,4 @@
-#PocketMorph
+# PocketMorph
 
 Transform into any mob with this PocketMine plugin!
 
@@ -19,7 +19,7 @@ Permissions:
 
 When transformed, your character will appear as the specified mob to OTHER players, you will not be able to see yourself as the mob. Hope you enjoy this plugin. Please report issues and/or suggestions!
 
-#WARNING
+# WARNING
 I do not own this plugin nor am i claiming it, original plugin by HotshotHD all credits to him for making the plugin. Im just updating it for latest api of pmmp
 
 
