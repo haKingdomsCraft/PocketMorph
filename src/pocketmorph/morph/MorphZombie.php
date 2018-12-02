@@ -9,12 +9,12 @@ class MorphZombie extends Morph implements MorphEntity
 
     const NETWORK_ID = 32;
 
-    public function getName()
+    public function getName(): string
     {
         return "Zombie";
     }
 
-    public function spawnTo(Player $player)
+    public function spawnTo(Player $player): void
     {
 
         $pk = new AddEntityPacket();

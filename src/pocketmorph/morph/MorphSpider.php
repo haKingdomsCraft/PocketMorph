@@ -9,12 +9,12 @@ class MorphSpider extends Morph implements MorphEntity
 
     const NETWORK_ID = 35;
 
-    public function getName()
+    public function getName(): string
     {
         return "Spider";
     }
 
-    public function spawnTo(Player $player)
+    public function spawnTo(Player $player): void
     {
 
         $pk = new AddEntityPacket();

@@ -9,12 +9,12 @@ class MorphSheep extends Morph implements MorphEntity
 
     const NETWORK_ID = 13;
 
-    public function getName()
+    public function getName(): string
     {
         return "Sheep";
     }
 
-    public function spawnTo(Player $player)
+    public function spawnTo(Player $player): void
     {
 
         $pk = new AddEntityPacket();
