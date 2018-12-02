@@ -9,12 +9,12 @@ class MorphCow extends Morph implements MorphEntity
 
     const NETWORK_ID = 11;
 
-    public function getName()
+    public function getName(): string
     {
         return "Cow";
     }
 
-    public function spawnTo(Player $player)
+    public function spawnTo(Player $player): void
     {
 
         $pk = new AddEntityPacket();

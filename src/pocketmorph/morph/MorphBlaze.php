@@ -9,12 +9,12 @@ class MorphBlaze extends Morph implements MorphEntity
 
     const NETWORK_ID = 43;
 
-    public function getName()
+    public function getName(): string
     {
         return "Blaze";
     }
 
-    public function spawnTo(Player $player)
+    public function spawnTo(Player $player): void
     {
 
         $pk = new AddEntityPacket();
