@@ -9,7 +9,7 @@ class MorphCreeper extends Morph implements MorphEntity
 
     const NETWORK_ID = 33;
 
-    public function getName()
+    public function getName(): string
     {
         return "Creeper";
     }
