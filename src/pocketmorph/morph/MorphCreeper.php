@@ -14,7 +14,7 @@ class MorphCreeper extends Morph implements MorphEntity
         return "Creeper";
     }
 
-    public function spawnTo(Player $player)
+    public function spawnTo(Player $player): void
     {
 
         $pk = new AddEntityPacket();
