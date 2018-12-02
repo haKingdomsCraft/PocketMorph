@@ -15,7 +15,7 @@ class MorphZombieVillager extends Morph implements MorphEntity
         return "ZombieVillager";
     }
 
-    public function spawnTo(Player $player): void 
+    public function spawnTo(Player $player): void
     {
         $pk = new AddEntityPacket();
         $pk->eid = $this->getId();
